@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="index.css" type="text/css" />
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <section class="header">
+    <img class="header__brand" src="./images/logo.jpg" />
+    <nav class="header__navigation toogle" id="navigation-list">
+      <a src="#">Home</a>
+      <a src="#">About us</a>
+      <a src="#">Services</a>
+      <a src="#">Contact us</a>
+    </nav>
+    <img class="header__menu" src="./images/menu.png" onclick="toggle()" />
+  </section>
+  <div class="container"></div>
+  <section class="main-info">
+    <section class="main-info__info">
+      <h1 class="main-info__title">Coming Soon</h1>
+      <p class="main-info__content">
+        Our exciting new website is coming soon! Check back later...
+      </p>
+    </section>
+    <section>
+      <section class="timer">
+        <div class="timer__remaining-time">
+          <div class="timer__time">
+            <h1 id="days">
+              </h2>
+              <p>Days</p>
+          </div>
+          <div class="timer__time">
+            <h1 id="hours"></h1>
+            <p>Hours</p>
+          </div>
+          <div class="timer__time">
+            <h1 id="minutes"></h1>
+            <p>Minutes</p>
+          </div>
+          <div class="timer__time">
+            <h1 id="seconds"></h1>
+            <p>Seconds</p>
+          </div>
+        </div>
+      </section>
+      <Section class="navigate">
+        <a href="#sec-4" class="navigate__contact-us">Contact us</a>
+        <a href="#sec-3" class="navigate__about-us">About us</a>
+      </Section>
+      <section class="media-icons">
+        <ion-icon class="media-icons__icons" name="logo-facebook"></ion-icon>
+        <ion-icon class="media-icons__icons" name="logo-twitter"></ion-icon>
+        <ion-icon class="media-icons__icons" name="logo-instagram"></ion-icon>
+        <ion-icon class="media-icons__icons" name="logo-google"></ion-icon>
+      </section>
+      <a href="#sec-2">
+        <div class="scroll-down"></div>
+      </a>
+      <main class="what-we-do">
+        <section class="what-we-do__section-2" id="sec-2">
+          <p class="what-we-do__title">What We Do</p>
+          <h1 class="what-we-do__head">We Provide Creative Solutions</h1>
+          <hr />
+          <p class="what-we-do__info">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed nulla
+            neque tempore rerum dolore accusamus, eum, officia nostrum sequi
+            explicabo aspernatur asperiores.
+          </p>
+        </section>
+        <section class="depts">
+          <div class="depts__dept">
+            <img class="depts__dept-icon" src="images/web-design.png" />
+            <h1>Web Design</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores
+              incidunt laboriosam harum, voluptatem fugiat perspiciatis.
+            </p>
+          </div>
+          <div class="depts__dept">
+            <img class="depts__dept-icon" src="images/mobile-logo.png" />
+            <h1>App Development</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores
+              incidunt laboriosam harum, voluptatem fugiat perspiciatis.
+            </p>
+          </div>
+          <div class="depts__dept">
+            <img class="depts__dept-icon" src="images/announcement-logo.png" />
+            <h1>Internet Marketing</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores
+              incidunt laboriosam harum, voluptatem fugiat perspiciatis.
+            </p>
+          </div>
+        </section>
+      </main>
+      <main class="team">
+        <section class="team__section-3" id="sec-3">
+          <p class="team__title">Meet Our</p>
+          <h1 class="team__head">Our awesome team</h1>
+          <p class="team__info">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed nulla
+            neque tempore rerum dolore accusamus, eum, officia nostrum sequi
+            explicabo aspernatur asperiores.
+          </p>
+        </section>
+        <section class="members owl-carousel owl-theme">
+          <div class="members__member">
+            <img class="members__profile" src="images/img1.png" />
+            <h4>Emilly Wiliams</h4>
+            <p>Product Designer</p>
+          </div>
+          <div class="members__member">
+            <img class="members__profile" src="images/img2.png" />
+            <h4>Patric Green</h4>
+            <p>Front-End Developer</p>
+          </div>
+          <div class="members__member">
+            <img class="members__profile" src="images/img3.png" />
+            <h4>Paul Kowalsky</h4>
+            <p>Lead Designer</p>
+          </div>
+          <div class="members__member">
+            <img class="members__profile" src="images/img4.png" />
+            <h4>Jhon Doe</h4>
+            <p>Back-End Developer</p>
+          </div>
+        </section>
+      </main>
+      <main>
+        <section class="connect" id="sec-4">
+          <p class="connect__title">Connect With Us</p>
+          <h1 class="connect__head">Get In Touch</h1>
+          <p class="connect__info">
+            Lorem ipsum dolor sit amet, ut consul mediocrem abhorreant cum. Id eum
+            dolores. Delicatissimi ne pri modo accusamus. Augue vitae primis
+            antiopam nec ex rationibus.
+          </p>
+        </section>
+        <section class="contact-details" id="contact">
+          <form class="contact-details__input-form">
+            <div class="contact-details__user">
+              <div class="contact-details__details">
+                <label class="contact-details__your-name">Your Name</label>
+                <input class="contact-details__user-name" type="text" name="name" />
+              </div>
+              <div class="contact-details__details">
+                <label class="contact-details__email">Email</label>
+                <input class="contact-details__user-email" type="email" name="email" />
+              </div>
+            </div>
+            <div class="contact-details__your-message">
+              <label class="contact-details__message">Your Message</label>
+              <input class="contact-details__user-message" type="text" />
+            </div>
+            <button class="contact-details__send-message">Send Message</button>
+          </form>
+          <div class="contact-details__address">
+            <div class="contact-details__city">
+              <h3 class="contact-details__add">Address</h3>
+              <p class="contact-details__location">
+                1900 Pico Blvd, New York Centernial, colorado
+              </p>
+            </div>
+            <div class="contact-details__phone">
+              <h3 class="contact-details__call">Call Us</h3>
+              <p class="contact-details__number">+48 123 456 789</p>
+            </div>
+            <div class="contact-details__wishing">
+              <h3 class="contact-details__greet">Say Hello</h3>
+              <p class="contact-details__email">info@example.com</p>
+            </div>
+          </div>
+        </section>
+        <section class="google-location">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d120000.3212465817!2d79.20550080686417!3d19.966080060531336!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd2d5d164adc333%3A0x440ae57d85f01b55!2sChandrapur%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1633549682210!5m2!1sen!2sin"
+            width="1519" height="450" style="border: 0" allowfullscreen="" loading="lazy"></iframe>
+            <section class="google-location__media-icons-footer">
+              <div class="google-location__footer-icons">
+                <ion-icon class="google-location__icons-1" name="logo-facebook"></ion-icon>
+                <ion-icon class="google-location__icons-1" name="logo-twitter"></ion-icon>
+                <ion-icon class="google-location__icons-1" name="logo-instagram"></ion-icon>
+                <ion-icon class="google-location__icons-1" name="logo-google"></ion-icon>
+              </div>
+              <p class="google-location__footer-content">Copyright @ 2018 | Crafted by <strong>UIdeck</strong></p>
+            </section>
+        </section>
+      </main>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+      <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <script src="js/landing-page.js" type="text/javascript"></script>
+</body>
+
+</html>
